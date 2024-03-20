@@ -1,0 +1,53 @@
+.top-bar{
+    width: 100%;
+    height: 70px;
+}
+
+.user-image-with-log-out{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.user-image-with-log-out>img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.user-image-with-log-out:hover .log-out{
+    display: inline-block;
+}
+
+.log-out{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(166, 165, 165);
+    border-radius: 5px;
+    top: 60px;
+    right: 0px;
+    display: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.log-out:hover{
+    border: 2px solid black;
+}
+
+.top-title{
+    font-size: 24px;
+}
+
+.docs-icon{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.topbar-left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}

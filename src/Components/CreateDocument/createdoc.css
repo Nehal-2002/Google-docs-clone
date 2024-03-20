@@ -1,0 +1,24 @@
+.create-doc-container{
+    background-color: rgb(241,243,244);
+    display: flex;
+    justify-content: center;
+}
+
+.create-doc-inner{
+    width: 70%;
+}
+
+.add-doc{
+    width: 150px;
+    height: 200px;
+}
+
+.add-doc:hover{
+    cursor: pointer;
+    border: solid blue 1px;
+    box-sizing: border-box;
+}
+
+.add-doc-title{
+    margin-top: -5px;
+}
